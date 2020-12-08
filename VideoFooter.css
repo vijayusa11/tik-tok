@@ -1,0 +1,58 @@
+.videofooter {
+    position: absolute;
+    bottom: 100px;
+    margin-left: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.videofooter__text > .h3 {
+    flex: 1!important;
+}
+
+.videofooter__icon {
+    position: absolute;
+    padding-top: 2px;
+}
+
+.videofooter__record {
+    height: 30px;
+    animation: spinTheRecord infinite 5s linear;
+    filter: invert(.5);
+    margin-left: 60px;
+    position: relative;
+    bottom: 0;
+    right: 0;
+    margin-left: 30px;
+    padding: 20px;
+
+}
+
+@keyframes spinTheRecord {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.videoFooter__ticker {
+    display: flex;
+    flex-direction: row;
+    padding-top: 7px;
+    font-size: 15px;
+    margin-left: auto;
+}
+
+.videoFooter__ticker > .ticker {
+    height: fit-content;
+    margin-left: 30px;
+    width: 60%;
+}
+
+.videofooter__text h3 {
+    padding-bottom: 5px;
+}
